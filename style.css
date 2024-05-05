@@ -1,0 +1,27 @@
+.div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(42, 4, 77);
+    margin: 20px;
+    position: relative;
+    animation-name: moveElement;
+    animation-duration: infinite;
+    @keyframes moveElement{
+        0%{left: 0px;top: 0px;background-color: yellow;
+        }
+        25%{left: 200px;top: 0px;background-color: green;}
+        50%{left: 200px;right: 200px;left: 0px;background-color: red;}
+    }
+    animation-iteration-count: infinite;
+
+}
+.h1{
+    text-align: center;
+    background-color: rgb(39, 4, 72);
+    color: rgb(11, 195, 241);
+    padding: 20px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
